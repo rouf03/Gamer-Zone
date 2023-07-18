@@ -1,0 +1,83 @@
+/* Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* Share Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* nav styles */
+
+.nav-container nav {
+    height: 8.125rem;
+    padding: 10px 100px 10px 140px;
+    margin: 28px 140px 28px 140px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 150px;
+    height: 50px;
+}
+
+.logo-title {
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.logo-g {
+    color: #FF42A5;
+}
+
+.follow div {
+    display: flex;
+    gap: 24px;
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    justify-content: center;
+    align-items: center;
+}
+
+.follow div img {
+    width: 100%;
+}
+
+.follow div .youtube {
+    width: 33.916px;
+    height: 24px;
+}
+
+.follow div .tiktok {
+    width: 24px;
+    height: 24px;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    gap: 32px;
+}
+
+nav ul a {
+    text-decoration: none;
+}
