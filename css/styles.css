@@ -212,8 +212,6 @@ nav ul a {
     opacity: 1;
 }
 
-
-
 .online-card {
     width: 342px;
     height: 400px;
@@ -326,7 +324,8 @@ figcaption {
 
     nav,
     nav ul,
-    .banner-container {
+    .banner-container,
+    .online-card-container {
         flex-direction: column;
     }
 
@@ -352,6 +351,7 @@ figcaption {
         position: relative;
         top: 150px;
         height: fit-content;
+        margin-bottom: 200px;
     }
 
     .banner-img {
@@ -368,6 +368,21 @@ figcaption {
         margin-top: 20px;
     }
 
+    .online-card-container {
+        margin-right: 0;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .online-card {
+        width: auto;
+        height: auto;
+    }
+
+    .online-title {
+        margin-top: 100px;
+    }
+
 
 }
 
@@ -379,7 +394,8 @@ figcaption {
 
     nav,
     nav ul,
-    .banner-container {
+    .banner-container,
+    .online-card-container {
         flex-direction: column;
     }
 
@@ -405,6 +421,7 @@ figcaption {
         position: relative;
         top: 150px;
         height: auto;
+        margin-bottom: 200px;
     }
 
     .banner-img {
@@ -420,5 +437,16 @@ figcaption {
     .banner-content-text button {
         margin-left: 30px;
         margin-top: 20px;
+    }
+
+    .online-card-container {
+        margin-right: 0;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .online-card {
+        width: auto;
+        height: auto;
     }
 }
