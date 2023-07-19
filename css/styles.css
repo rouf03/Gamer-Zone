@@ -268,7 +268,7 @@ figcaption {
 
 .overlay-conatiner:hover .overlay,
 .card-img:hover {
-    opacity: 0.7;
+    opacity: 1;
     cursor: pointer;
     transition: opacity 0.4s ease-in-out;
 }
