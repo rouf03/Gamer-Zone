@@ -445,7 +445,8 @@ figcaption {
     .banner-container,
     .online-card-container,
     .horse-container,
-    .multiple-box  {
+    .multiple-box,
+    .multiple-box a {
         flex-direction: column;
     }
 
@@ -512,7 +513,8 @@ figcaption {
     }
 
     .horse-title {
-        margin-top: 20px;
+        margin-top: 345px;
+        text-align: center;
     }
 
     .horse-title>h3,
@@ -549,14 +551,26 @@ figcaption {
         padding-left: 0;
         top: 140px;
         left: 30px;
+        margin-bottom: 500px;
+    }
+
+    .multiple-conatiner {
+        margin-top: 50px;
+        margin-top: 50px;
+        align-items: center;
     }
 
     .multiple-box {
-        height: auto;
-    } 
+        height: fit-content;
+    }
 
     .multiple-box:hover {
         transition: 4s 3s;
+    }
+
+    .multiple {
+        padding-top: 200px;
+        padding-bottom: 50px;
     }
 
 
@@ -572,7 +586,9 @@ figcaption {
     nav ul,
     .banner-container,
     .online-card-container,
-    .horse-container {
+    .horse-container,
+    .multiple-box,
+    .multiple-box a {
         flex-direction: column;
     }
 
@@ -637,6 +653,7 @@ figcaption {
 
     .horse-title {
         margin-top: 150px;
+        text-align: center;
     }
 
     .horse-title>h3,
@@ -653,6 +670,10 @@ figcaption {
 
     .angel {
         padding-left: 100px;
+    }
+
+    .multiple-box-container {
+        margin-top: 650px;
     }
 
 }
