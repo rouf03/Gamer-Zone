@@ -290,6 +290,12 @@ nav ul a {
         gap: 10px;
     }
 
+    .nav-container nav {
+        height: 8.125rem;
+        padding: 10px 0 10px 0;
+        margin: 10px 0 10px 0;
+    }
+
     .follow {
         margin-bottom: 100px;
     }
@@ -308,6 +314,7 @@ nav ul a {
     .banner-content-container {
         margin-left: 0;
         margin-right: 0;
+        padding: 0;
     }
 
     .banner-content-text button {
