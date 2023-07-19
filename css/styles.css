@@ -249,7 +249,7 @@ figcaption {
 .overlay-container {
     position: relative;
     display: inline-block;
-  }
+}
 
 .overlay {
     color: #FF42A5;
@@ -264,25 +264,95 @@ figcaption {
     justify-content: center;
     align-items: center;
     transition: opacity 0.4s ease-in-out;
-  }
+}
 
-  .overlay-conatiner:hover .overlay,  .card-img:hover {
+.overlay-conatiner:hover .overlay,
+.card-img:hover {
     opacity: 0.7;
     cursor: pointer;
     transition: opacity 0.4s ease-in-out;
-  }
+}
 
-  .play-button {
+.play-button {
     font-size: 40px;
     color: white;
-  }
-  
-  .overlay-text {
+}
+
+.overlay-text {
     border: 3px solid #FF42A5;
     font-size: 18px;
     margin-top: 10px;
     font-weight: 600;
-  }
+}
+
+/* Horse Section Styles */
+
+.horse {
+    padding-right: 240px;
+    padding-left: 240px;
+}
+
+.horse-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    height: 100vh;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 120px;
+}
+
+.horse-title {
+    text-align: right;
+    font-size: 3rem;
+    max-width: 100%;
+    font-weight: 700;
+    padding: 60px;
+}
+
+.horse-content p {
+    padding-right: 70px;
+}
+
+.horse-description {
+    color: #534C64;
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+#horse-id {
+    color: #F948B2;
+}
+
+.horse-collage {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.horse-collage .man img {
+    width: 100%;
+}
+
+.man {
+    width: 500px;
+    height: 500px;
+}
+
+.horse-collage .angel {
+    width: 100%;
+}
+
+.angel {
+    padding-left: 120px;
+    width: 200px;
+    height: 240px;
+    position: relative;
+    top: 300px;
+    left: 110px;
+
+}
 
 
 
@@ -395,7 +465,8 @@ figcaption {
     nav,
     nav ul,
     .banner-container,
-    .online-card-container {
+    .online-card-container,
+    .horse-container {
         flex-direction: column;
     }
 
@@ -449,4 +520,31 @@ figcaption {
         width: auto;
         height: auto;
     }
+
+    .horse-container {
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 250px;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .horse-title {
+        margin-top: 150px;
+    }
+
+    .horse-title > h3, .horse-description, .horse-collage {
+        align-items: center;
+        text-align: center;
+    }
+
+    .horse-content p {
+        padding-right: 0;
+        margin: 0;
+    }
+
+    .angel {
+        padding-left: 100px;
+    }
+    
 }
