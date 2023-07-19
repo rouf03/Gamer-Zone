@@ -386,7 +386,8 @@ figcaption {
     height: 60px;
 }
 
-.multiple-box:hover, .multiple-box a:hover  {
+.multiple-box:hover,
+.multiple-box a:hover {
     border: 2px solid #FF42A5;
     border-radius: 50px;
     width: 200px;
@@ -402,8 +403,88 @@ figcaption {
     gap: 80px;
 }
 
+/* Footer Section Styles  */
 
+.foot {
+    width: 100%;
+    height: 35vh;
+    padding-top: 75px;
+    background: #0B0223;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
 
+.social-ico ol {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.social-ico ol img {
+    width: 100%;
+}
+
+.social-ico ol img:hover {
+    cursor: pointer;
+}
+
+.foot-container ol {
+    list-style: none;
+}
+
+.foot-container ol a {
+    text-decoration: none;
+}
+
+.foot-link a {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.foot-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+#foot-logo-color {
+    color: #fff;
+}
+
+.foot-cookie ol a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.foot-cookie ol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.foot-copyright p {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
 
 
 
