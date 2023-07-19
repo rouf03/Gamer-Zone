@@ -395,7 +395,8 @@ figcaption {
     nav,
     nav ul,
     .banner-container,
-    .online-card-container {
+    .online-card-container,
+    .horse-container {
         flex-direction: column;
     }
 
@@ -451,6 +452,53 @@ figcaption {
 
     .online-title {
         margin-top: 100px;
+    }
+
+    .horse-container {
+        margin-right: 0;
+        margin-left: 0;
+        /* margin-top: 250px; */
+        align-items: center;
+        gap: 100px;
+    }
+
+    .horse-title {
+        margin-top: 20px;
+    }
+
+    .horse-title > h3, .horse-description {
+        align-items: center;
+        text-align: center;
+    }
+
+    .horse {
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .horse-img .man {
+        width: 250px;
+        height: 200px;
+    }
+
+    .horse-collage {
+        padding-left: 0;
+    }
+
+    .horse-content p {
+        padding-right: 0;
+        margin: 0;
+    }
+
+    .angel {
+        width: 100px;
+        height: 80px;
+        padding-left: 0;
+        top: 140px;
+        left: 30px;
     }
 
 
