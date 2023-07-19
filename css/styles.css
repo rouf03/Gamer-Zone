@@ -346,12 +346,60 @@ figcaption {
 
 .angel {
     padding-left: 120px;
-    width: 200px;
+    width: 300px;
     height: 240px;
     position: relative;
     top: 300px;
     left: 110px;
+}
 
+/* Multiple Games Style Section  */
+
+.multiple {
+    width: 100%;
+    height: 35vh;
+    padding-top: 75px;
+}
+
+.multiple-box a {
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    gap: 8px;
+    color: #0B0223;
+    font-size: 0.7rem;
+    font-weight: 600;
+    border: none;
+}
+
+.multiple-box a img {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.multiple-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+}
+
+.multiple-box:hover, .multiple-box a:hover  {
+    border: 2px solid #FF42A5;
+    border-radius: 50px;
+    width: 200px;
+    height: 60px;
+    color: #FF42A5;
+}
+
+.multiple-conatiner>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
 }
 
 
@@ -396,7 +444,8 @@ figcaption {
     nav ul,
     .banner-container,
     .online-card-container,
-    .horse-container {
+    .horse-container,
+    .multiple-box  {
         flex-direction: column;
     }
 
@@ -466,7 +515,8 @@ figcaption {
         margin-top: 20px;
     }
 
-    .horse-title > h3, .horse-description {
+    .horse-title>h3,
+    .horse-description {
         align-items: center;
         text-align: center;
     }
@@ -499,6 +549,14 @@ figcaption {
         padding-left: 0;
         top: 140px;
         left: 30px;
+    }
+
+    .multiple-box {
+        height: auto;
+    } 
+
+    .multiple-box:hover {
+        transition: 4s 3s;
     }
 
 
@@ -581,7 +639,9 @@ figcaption {
         margin-top: 150px;
     }
 
-    .horse-title > h3, .horse-description, .horse-collage {
+    .horse-title>h3,
+    .horse-description,
+    .horse-collage {
         align-items: center;
         text-align: center;
     }
@@ -594,5 +654,5 @@ figcaption {
     .angel {
         padding-left: 100px;
     }
-    
+
 }
